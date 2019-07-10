@@ -1,3 +1,3 @@
 UPDATE characters
 SET (species = "Martian")
-WHERE species.last;
+WHERE id= 8;
