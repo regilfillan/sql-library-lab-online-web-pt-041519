@@ -26,3 +26,8 @@ CREATE TABLE authors (
 CREATE TABLE sub_genres (
   id INTEGER PRIMARY KEY,
   name TEXT);
+  
+CREATE TABLE character_books (
+  id INTEGER PRIMARY KEY,
+  book_id INTEGER,
+  character_id INTEGER);
