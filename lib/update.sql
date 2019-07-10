@@ -1,3 +1,3 @@
-UPDATE species
-SET ()
-WHERE ;
+UPDATE characters
+SET (species = "Martian")
+WHERE species = ;
